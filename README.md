@@ -1,1 +1,1 @@
-# Silahkan diketik ulang, janan di copas :)
+# Silahkan diketik ulang, jangan di copas :)
