@@ -2,14 +2,14 @@
 
 int main()
 {
-    int suhu;
+    int temp;
     printf("Masukkan suhu dalam celcius:");
-    scanf("%i", &suhu);
-    if (suhu > 30)
+    scanf("%i", &temp);
+    if (temp > 30)
     {
         printf("Suhu sangat panas\n");
     }
-    else if (suhu < 0)
+    else if (temp < 0)
     {
         printf("Suhu sangat dingin\n");
     }

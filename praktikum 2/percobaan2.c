@@ -2,34 +2,34 @@
 
 int main()
 {
-    char huruf;
-    int angka;
+    char letter;
+    int number;
     printf("Masukkan nilai huruf:");
-    scanf("%c", &huruf);
-    if (huruf >= 'a' && huruf <= 'z')
+    scanf("%c", &letter);
+    if (letter >= 'a' && letter <= 'z')
     {
-        huruf = huruf - 32;
+        letter = letter - 32;
     }
-    switch (huruf)
+    switch (letter)
     {
     case 'A':
-        angka = 4;
+        number = 4;
         break;
 
     case 'B':
-        angka = 3;
+        number = 3;
         break;
 
     case 'C':
-        angka = 2;
+        number = 2;
         break;
 
     case 'D':
-        angka = 1;
+        number = 1;
         break;
 
     case 'E':
-        angka = 0;
+        number = 0;
         break;
 
     default:
@@ -37,6 +37,6 @@ int main()
         return 1;
         break;
     }
-    printf("Nilai angka %d\n", angka);
+    printf("Nilai angka %d\n", number);
     return 0;
 }
