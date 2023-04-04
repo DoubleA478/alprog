@@ -12,4 +12,5 @@ int main()
     printf("No Telfon: ");
     scanf("%i", &telephone);
     printf("Hello %s, Umur %i, no telp %i\nBagaimana kabar anda hari ini?\n", name, age, telephone);
+    return 0;
 }

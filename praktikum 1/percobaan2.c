@@ -10,4 +10,5 @@ int main()
     scanf("%i", &time);
     range = speed * time;
     printf("Jadi jarak tempuh(m) anda adalah %i meter\n", range);
+    return 0;
 }

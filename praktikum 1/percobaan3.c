@@ -12,4 +12,5 @@ int main()
     b = c;
     printf("jadi bilangan a sekarang %i\n", a);
     printf("jadi bilangan b sekarang %i\n", b);
+    return 0;
 }

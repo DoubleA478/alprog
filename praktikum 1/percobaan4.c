@@ -12,4 +12,5 @@ int main()
     scanf("%i", &height);
     volume = lenght * width * height;
     printf("jadi volumenya adalah %i cm kubik\n", volume);
+    return 0;
 }
