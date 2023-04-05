@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
     int number;
     printf("Hari ke...:");
@@ -11,16 +11,16 @@ int main(int argc, char const *argv[])
         {
             if (number <= 1)
             {
-                printf("Minggu");
+                printf("Minggu\n");
             }
             else
             {
-                printf("Senin");
+                printf("Senin\n");
             }
         }
         else
         {
-            printf("Selasa");
+            printf("Selasa\n");
         }
     }
     else
@@ -29,22 +29,22 @@ int main(int argc, char const *argv[])
         {
             if (number <= 4)
             {
-                printf("Rabu");
+                printf("Rabu\n");
             }
             else
             {
-                printf("Kamis");
+                printf("Kamis\n");
             }
         }
         else
         {
             if (number <= 6)
             {
-                printf("Jum'at");
+                printf("Jum'at\n");
             }
             else
             {
-                printf("Sabtu");
+                printf("Sabtu\n");
             }
         }
     }

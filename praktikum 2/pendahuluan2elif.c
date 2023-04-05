@@ -36,6 +36,7 @@ int main(int argc, char const *argv[])
     else
     {
         printf("Hari tidak valid\n");
+        return 1;
     }
     return 0;
 }
