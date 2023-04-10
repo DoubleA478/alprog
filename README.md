@@ -1,3 +1,3 @@
 # Silahkan diketik ulang, jangan di copas :)
 
-![fuck](https://i.kym-cdn.com/photos/images/original/002/503/192/4cb.jpg)
+![santai](https://cdn.discordapp.com/attachments/1014785952343924809/1094796828794421248/1681090280741.jpg)
