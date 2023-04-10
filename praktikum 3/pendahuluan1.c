@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
     int loop = 1;
-    while (loop == 1)
+    while (loop)
     {
         int num, div, remain;
         char choice;
