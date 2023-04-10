@@ -20,7 +20,7 @@ int main()
     {
         int over, costover;
         over = usage - 500;
-        costover = over * 1500;
+        costover = over * 2000;
         cost = 700000 + costover;
     }
 
