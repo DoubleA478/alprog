@@ -5,8 +5,8 @@
 int main(int argc, char const *argv[])
 {
     int random, guess;
-    srand(time(NULL));
-    random = rand() % 100 + 1;
+    srand(time(NULL));         // generate random number seed from current time
+    random = rand() % 100 + 1; // generate a random number between 0-100
     while (guess != random)
     {
         printf("Angka tebakan:");
