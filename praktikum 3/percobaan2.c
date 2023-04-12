@@ -2,8 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    int loop = 1, counter = 1, total = 0;
-    while (loop)
+    int counter = 1, total = 0;
+    while (1)
     {
         int num;
         char choice;
@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
         }
         if (choice == 'N')
         {
-            loop = 0;
+            break;
         }
         printf("\n");
         counter++;

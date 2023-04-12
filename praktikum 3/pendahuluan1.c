@@ -2,8 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    int loop = 1;
-    while (loop)
+    while (1)
     {
         int num, div, remain;
         char choice;
@@ -29,7 +28,7 @@ int main(int argc, char const *argv[])
         }
         if (choice == 'N')
         {
-            loop = 0;
+            break;
         }
     }
     return 0;

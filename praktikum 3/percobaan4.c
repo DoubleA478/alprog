@@ -2,9 +2,8 @@
 
 int main(int argc, char const *argv[])
 {
-    int loop = 1;
     char choice;
-    while (loop)
+    while (1)
     {
         printf("Anda sudah sholat?\?(s/b) ");
         scanf(" %c", &choice);
@@ -14,7 +13,7 @@ int main(int argc, char const *argv[])
         }
         if (choice == 'B' || choice == 'S')
         {
-            loop = 0;
+            break;
         }
     }
     switch (choice)
