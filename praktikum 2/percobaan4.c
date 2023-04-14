@@ -3,7 +3,6 @@
 int main()
 {
     int usage, cost, over, costover;
-    ;
     printf("Masukkan pemakaian rekening listrik:");
     scanf("%i", &usage);
     if (usage <= 100)
