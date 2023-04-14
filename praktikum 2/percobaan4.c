@@ -9,7 +9,7 @@ int main()
     {
         cost = 100000;
     }
-    else if (usage > 100 && usage <= 500)
+    else if (usage <= 500)
     {
         over = usage - 100;
         costover = over * 1500;
