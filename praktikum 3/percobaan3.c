@@ -19,11 +19,8 @@ int main(int argc, char const *argv[])
         {
             printf("Tebakan terlalu besar\n");
         }
-        else
-        {
-            printf("Tebakan benar\n");
-        }
     }
 
+    printf("Tebakan benar\n");
     return 0;
 }
