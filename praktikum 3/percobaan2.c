@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
         }
         if (choice == 'N')
         {
+            printf("\n");
             break;
         }
         printf("\n");

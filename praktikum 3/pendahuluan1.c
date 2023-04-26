@@ -11,14 +11,15 @@ int main(int argc, char const *argv[])
         printf("masukkan bilangan pembagi(2/3/4/5)\n");
         scanf("%i", &div);
         printf("bilangan yang dipilih:%i\n", num);
-        printf("bilangan pembagi:%i", div);
-        if (num % div == 0)
+        printf("bilangan pembagi:%i\n", div);
+        remain = num % div;
+        if (remain == 0)
         {
-            printf("tidak ada\n");
+            printf("sisa bagi:tidak ada\n");
         }
         else
         {
-            printf("ada\n");
+            printf("sisa bagi:%d\n", remain);
         }
         printf("apakah anda ingin meneruskan(Y/n) ");
         scanf(" %c", &choice);
