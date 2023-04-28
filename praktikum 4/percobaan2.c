@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     {
         for (int col = 1; col <= 5; col++)
         {
-            printf("%3i", row * col);
+            printf("%-3i", row * col);
         }
         printf("\n");
     }

@@ -22,7 +22,7 @@ int main(int argc, char const *argv[])
     float avg = total / num;
     printf("banyaknya mahasiswa\t\t=%i\n", num);
     printf("total nilai mahasiswa\t\t=%i\n", total);
-    printf("rata-rata nilai mahasiswa\t=%f", avg);
+    printf("rata-rata nilai mahasiswa\t=%f\n", avg);
 
     return 0;
 }
