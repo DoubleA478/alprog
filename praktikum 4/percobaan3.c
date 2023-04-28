@@ -3,7 +3,6 @@
 int main(int argc, char const *argv[])
 {
     int num, count = 1, total = 0;
-    float aver;
     printf("banyaknya data?");
     scanf("%i", &num);
     printf("\n");
@@ -20,10 +19,10 @@ int main(int argc, char const *argv[])
         count++;
     }
     printf("\n");
-    aver = total / num;
+    float avg = total / num;
     printf("banyaknya mahasiswa\t\t=%i\n", num);
     printf("total nilai mahasiswa\t\t=%i\n", total);
-    printf("rata-rata nilai mahasiswa\t=%f", aver);
+    printf("rata-rata nilai mahasiswa\t=%f", avg);
 
     return 0;
 }
