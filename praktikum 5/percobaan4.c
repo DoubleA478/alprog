@@ -26,6 +26,7 @@ int largest(int *a, int *b, int *c)
             largest = *c;
         }
     }
+    return largest;
 }
 
 int main(int argc, char const *argv[])
