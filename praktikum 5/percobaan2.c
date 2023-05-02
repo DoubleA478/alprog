@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-float average(int arr[], int n)
+float avg(int arr[], int n)
 {
     int sum = 0;
     for (int i = 0; i < n; i++)
@@ -22,6 +22,7 @@ int main()
         printf("Masukkan data ke-%d: ", i + 1);
         scanf("%d", &arr[i]);
     }
-    printf("Rata-rata data adalah %.2f\n", average(arr, n));
+    float average = avg(arr, n);
+    printf("Rata-rata data adalah %.2f\n", average);
     return 0;
 }
