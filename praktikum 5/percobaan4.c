@@ -31,8 +31,9 @@ int largest(int *a, int *b, int *c)
 int main(int argc, char const *argv[])
 {
     int a, b, c;
-    printf("masukkan 3 angka (dipisahkan oleh spasi): ");
+    printf("Masukkan 3 buah bilangan\n");
     scanf("%i %i %i", &a, &b, &c);
-    printf("nilai terbesar adalah: %i", largest(&a, &b, &c));
+    int large = largest(&a, &b, &c);
+    printf("Nilai terbesar adalah %i", large);
     return 0;
 }
