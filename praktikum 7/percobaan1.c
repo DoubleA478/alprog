@@ -32,20 +32,16 @@ int main(int argc, char const *argv[])
     scanf("%i", &n);
 
     char arr[n];
-    int count = 1;
-    for (int i = 0; i < n; i++)
+    int count = 0;
+    while (count < n)
     {
         char temp;
-        printf("Masukkan karakter ke-%d: ", count);
+        printf("Masukkan karakter ke-%d: ", count + 1);
         scanf(" %c", &temp);
         if (temp >= 'a' && temp <= 'z')
         {
-            arr[i] = temp;
+            arr[count] = temp;
             count++;
-        }
-        else
-        {
-            continue;
         }
     }
 
