@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
     char name[256];
     printf("Masukkan String:");
-    scanf("%s", name);
+    fgets(name, 256, stdin);
     int size = strlen(name);
     printf("%i", size);
     return 0;
