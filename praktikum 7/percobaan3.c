@@ -1,30 +1,3 @@
-// didn't work write a new one
-//  #include <stdio.h>
-
-// int main(int argc, char const *argv[])
-// {
-//     int n;
-//     printf("Jumlah mahsiswa :");
-//     scanf("%i", &n);
-//     char names[n][256];
-//     int grade[n][256];
-//     for (int i = 0; i < n; i++)
-//     {
-//         char temp[256];
-//         printf("Nama Mahasiswa-%i : ", i + 1);
-//         fgets(names[i], 256, stdin);
-//         int c;
-//         printf("Jumlah nilai :");
-//         scanf("%i", &c);
-//         for (int j = 0; j < c; j++)
-//         {
-//             printf("Nilai-%i :", j + 1);
-//             scanf("%i", &grade[i][j]);
-//         }
-//     }
-//     return 0;
-// }
-
 #include <stdio.h>
 #include <string.h>
 
