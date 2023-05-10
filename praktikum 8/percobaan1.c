@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     char sentence[256];
     char reverse[256];
     printf("Kalimat:");
-    fgets(sentence, 256, stdin);
+    scanf("%s", sentence);
 
     int len = strlen(sentence);
 
@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
         reverse[i] = sentence[len - i - 1];
     }
 
-    if (strcmp(sentence, reverse) == 1)
+    if (strcmp(sentence, reverse) == 0)
     {
         printf("Termasuk PALINDROM\n");
     }
