@@ -15,8 +15,7 @@ int main(int argc, char const *argv[])
         reverse[i] = sentence[len - i - 1];
     }
 
-    printf("%i", strcmp(sentence, reverse));
-    if (strcmp(sentence, reverse))
+    if (strcmp(sentence, reverse) == 1)
     {
         printf("Termasuk PALINDROM\n");
     }
