@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     char sentence[256];
     char reverse[256];
     printf("Kalimat:");
-    scanf("%s", sentence);
+    scanf("%255[^\n]", sentence);
 
     int len = strlen(sentence);
 
