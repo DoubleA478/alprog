@@ -38,6 +38,10 @@ int main(int argc, char const *argv[])
         char temp;
         printf("Masukkan karakter ke-%d: ", i + 1);
         scanf(" %c", &temp);
+        if (temp >= 'A' && temp <= 'Z')
+        {
+            temp = temp + 32;
+        }
         if (temp >= 'a' && temp <= 'z')
         {
             arr[i] = temp;
